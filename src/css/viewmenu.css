@@ -1,0 +1,69 @@
+.view-menu {
+  width: 100%;
+  height: 100px;
+  background: rgb(245, 246, 247);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 11px;
+  padding-top: 3px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 25% 28% 32% 10%;
+}
+
+.grid-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-panes,
+.menu-view,
+.menu-show,
+.menu-options {
+  border-right: 1px solid rgb(218, 215, 215);
+}
+.pane-nav {
+  text-align: center;
+  margin-top: 5px;
+}
+.pane-preview,
+.pane-details {
+  display: flex;
+  margin-top: 7px;
+}
+.view-group,
+.view-column,
+.view-size {
+  display: flex;
+}
+.view-row {
+  margin-top: 3px;
+}
+.view-sort {
+  text-align: center;
+  margin-top: 5px;
+}
+.view-group {
+  padding-left: 1px;
+}
+.view-column {
+  padding-left: 3px;
+}
+.show-item,
+.show-file,
+.show-hidden {
+  display: flex;
+  margin-top: 5px;
+}
+.show-hide {
+  text-align: center;
+}
+.show-row p {
+  margin-left: 5px;
+}
+.menu-options {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}

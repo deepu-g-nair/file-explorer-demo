@@ -1,0 +1,71 @@
+.computer-menu {
+  width: 100%;
+  height: 100px;
+  background: rgb(245, 246, 247);
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 26% 35% 40%;
+}
+.sub-menu {
+  border-right: 1px solid rgb(218, 215, 215);
+}
+.menu-body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3px;
+}
+.loc-properties,
+.loc-open,
+.loc-rename {
+  text-align: center;
+}
+.loc-rename {
+  padding-top: 1px;
+}
+.sub-menu p {
+  font-size: 11px;
+}
+.unselect {
+  color: grey;
+}
+
+.net-media,
+.net-drive,
+.net-location {
+  text-align: center;
+}
+
+.net-drive {
+  padding-top: 10px;
+}
+.net-location {
+  padding-top: 3px;
+}
+
+.sys-settings {
+  text-align: center;
+}
+
+.system-row-menu {
+  display: flex;
+  flex-direction: column;
+}
+.system-row-menu p {
+  font-size: 10px;
+  padding-top: 1px;
+}
+.row-menu-1,
+.row-menu-2,
+.row-menu-3 {
+  display: flex;
+}
+.menu-caption {
+  margin-top: 10px;
+}
+.menu-caption p {
+  font-size: 12px;
+  text-align: center;
+}

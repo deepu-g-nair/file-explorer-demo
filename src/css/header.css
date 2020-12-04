@@ -58,3 +58,7 @@
 .help:hover {
   background-color: rgb(230, 243, 245);
 }
+
+.cursor {
+  cursor: context-menu;
+}
