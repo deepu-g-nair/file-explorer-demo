@@ -2,6 +2,7 @@ import React from "react";
 import Windowbar from "./components/Windowbar";
 import Header from "./components/Header";
 import Addressbar from "./components/Addressbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Windowbar />
       <Header />
       <Addressbar />
+      <Sidebar />
     </div>
   );
 }

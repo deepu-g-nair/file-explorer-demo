@@ -1,0 +1,56 @@
+.sidebar {
+  width: 182px;
+  border-right: 1px solid whitesmoke;
+}
+.sidebar img {
+  width: 16px;
+  height: 15px;
+}
+.icon-label {
+  font-size: 12px;
+  padding-left: 8px;
+}
+.onedrive {
+  padding: 5px 26px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.thispc {
+  display: flex;
+  padding: 5px 26px;
+  margin-top: 8px;
+}
+.network {
+  display: flex;
+  padding: 5px 26px;
+  margin-top: 20px;
+}
+.objects-3d,
+.desktop,
+.documents,
+.downloads,
+.music,
+.pictures,
+.videos,
+.cdrive,
+.fdrive {
+  display: flex;
+  padding: 5px 35px;
+}
+.onedrive:hover,
+.thispc:hover,
+.network:hover,
+.objects-3d:hover,
+.desktop:hover,
+.documents:hover,
+.downloads:hover,
+.music:hover,
+.pictures:hover,
+.videos:hover,
+.cdrive:hover,
+.fdrive:hover {
+  background-color: rgb(217, 217, 217);
+  cursor: pointer;
+}
