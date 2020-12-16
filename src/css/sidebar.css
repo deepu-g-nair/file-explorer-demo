@@ -1,3 +1,6 @@
+.sidebar-menu {
+  display: flex;
+}
 .sidebar {
   width: 182px;
   border-right: 1px solid whitesmoke;
