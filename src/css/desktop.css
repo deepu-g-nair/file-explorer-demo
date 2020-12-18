@@ -1,0 +1,17 @@
+.folder-section-divider {
+  width: 85vw;
+  height: 17px;
+  display: grid;
+  grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+  padding: 8px 35px;
+}
+.infolder {
+  text-align: center;
+  padding: 6px;
+}
+.infolder:hover {
+  background-color: rgb(229, 243, 255);
+}
+.align-icon {
+  width: 30px;
+}
